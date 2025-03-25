@@ -1,0 +1,24 @@
+{
+  "name": "mytinerary-back-jonathanserrano",
+  "version": "1.0.0",
+  "description": "proyect backend mytinerary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanserr/mytinerary-back-JonathanSerrano.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jonathanserr/mytinerary-back-JonathanSerrano/issues"
+  },
+  "homepage": "https://github.com/jonathanserr/mytinerary-back-JonathanSerrano#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
