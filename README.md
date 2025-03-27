@@ -7,3 +7,5 @@ Install for run:
 - npm install --save-dev nodemon  
 - npm install dotenv   
 - npm install mongoose  
+- npm install cors
+- npm install morgan
