@@ -1,6 +1,6 @@
 import 'dotenv/config.js';
 import "../../config/database.js"
-import City from '../City.js';
+import Citym from '../City.js';
 
 let cities = [
     {
@@ -113,7 +113,7 @@ let cities = [
     },    
     {
         name: "RIO DE JANEIRO",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/6/65/RiodeJaneiroBrazil.jpg",
+        photo: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRBqDllkswUCYHAa054HJcRtsXHZezcZ1G1_KaOPa04zVxnZJ1CMscCp7jvD9bMS6sN9MbQbGMsCQLNLdgHR7JK1PRXE-glWAm2m9hkfg",
         country: "Brazil",
         continent: "South America",
         description: "Known for its stunning beaches, Christ the Redeemer statue, and vibrant Carnival festival.",
@@ -122,7 +122,7 @@ let cities = [
     },
     {
         name: "CAPE TOWN",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cape_Town_City_Bowl_skyline.jpg",
+        photo: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQH86d-tmW8L74CkmsbgSO01pL0SCX3ZmityqY1dgn2PcHpgxVWBfFD_9p8iFJSInQ_BVLVXWP4XHi2UyjPXam0C2WeeYQ9dNycDdkIsQ",
         country: "South Africa",
         continent: "Africa",
         description: "A breathtaking coastal city known for Table Mountain, Robben Island, and its stunning landscapes.",
@@ -131,7 +131,7 @@ let cities = [
     },
     {
         name: "TORONTO",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Toronto_skyline_at_night_-_2020.jpg",
+        photo: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTCkv7ETGenfgqygF64_iDY506zmAlftSDxyUvyJ8z0pOQLpV6ZkqnG8Jht0OYe9z1fIa_8wlY6XBGzYPNklT-tpYuy5XHHpuLIFqSIBA",
         country: "Canada",
         continent: "North America",
         description: "A diverse metropolis known for the CN Tower, multicultural neighborhoods, and vibrant arts scene.",
@@ -140,4 +140,4 @@ let cities = [
     }
 ];
 
-City.insertMany(cities)
+Citym.insertMany(cities)
