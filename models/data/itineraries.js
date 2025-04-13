@@ -3,22 +3,40 @@ import "../../config/database.js";
 import Itinerary from '../Itinerary.js';
 
 let itineraries = [{
-    name: "Adventure in the Alps",
-    photo: "https://cdn.pixabay.com/photo/2016/11/29/09/08/wine-1867320_1280.jpg",
-    description: "A thrilling week-long adventure in the Swiss Alps, including skiing, snowboarding, and hiking.",
-    duration: 7,
-    price: 1500,
-    location: "Switzerland",
-    category: "Adventure"
+    name: "Scarlett Johansson",
+    duration: 24,
+    price: 150,
+    photo: "https://example.com/paris.jpg",
+    likes: 100,
+    hashtags: "#Paris #EiffelTower #Louvre #SeineCruise",
+    cityId: "1",
+},  
+{
+    name: "Robert Downey Jr.",
+    duration: 24,
+    price: 200,
+    photo: "https://example.com/rome.jpg",
+    likes: 80,
+    hashtags: "#Rome #Colosseum #VaticanCity #ItalianCuisine",
+    cityId: "2",
 },
 {
-    name: "Cultural Tour of Japan",
-    photo: "https://cdn.pixabay.com/photo/2016/11/29/09/08/wine-1867320_1280.jpg",
-    description: "Explore the rich culture and history of Japan with visits to Kyoto, Tokyo, and Osaka.",
-    duration: 10,
-    price: 2000,
-    location: "Japan",
-    category: "Culture"
-}
+    name: "Chris Hemsworth",
+    duration: 24,
+    price: 180,
+    photo: "https://example.com/tokyo.jpg",
+    likes: 120,
+    hashtags: "#Tokyo #Shibuya #Sensoji #Sushi",
+    cityId: "3",
+},  
+{
+    name: "Jennifer Lawrence",
+    duration: 24,
+    price: 250,
+    photo: "https://example.com/nyc.jpg",
+    likes: 150,
+    hashtags: "#NYC #StatueOfLiberty #CentralPark #TimesSquare",
+    cityId: "4",
+} 
 ];
 Itinerary.insertMany(itineraries)

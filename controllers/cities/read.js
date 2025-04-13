@@ -1,5 +1,6 @@
+import City from "../../models/City.js";
 import { response } from "express";
-import City from "../../models/city.js";
+
 
 
 let allCity = async (req, res, next) => {
