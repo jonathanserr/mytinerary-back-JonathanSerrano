@@ -1,7 +1,4 @@
 import City from '../../models/City.js';
-import { response } from 'express';
-
-
 
 let create = async (req, res, next) => {
     try {
@@ -14,4 +11,17 @@ let create = async (req, res, next) => {
         next(error)
     }
 }
-export default create;
+
+let createAll = async (req, res, next) => {
+    try {
+        let cities = req.body
+        let insertManyCity = await City.insertMany(cities)
+        return res.status(201).json({
+            response: insertManyCity,
+            message: 'Cities created successfully'
+        })
+    } catch (error) {
+        next(error)
+    }
+}
+export {create, createAll}

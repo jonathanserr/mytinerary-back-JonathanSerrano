@@ -2,7 +2,8 @@ import { Schema, model } from "mongoose";
 
 let collection = "itineraries"
 let schema = Schema({
-    name: { type: String, required: true },
+    nameItinerary: { type: String, required: true },
+    nameUser: { type: String, required: true },
     description: { type: String, required: true },
     duration: { type: Number, required: true },
     price: { type: Number, required: true },
