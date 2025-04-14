@@ -11,7 +11,7 @@ let itineraries = [{
     photo: "https://example.com/paris.jpg",
     likes: 100,
     hashtags: "#Paris #EiffelTower #Louvre #SeineCruise",
-    cityId: ["167f7e33491599d8fd767ae2c"],
+    
 },  
 {
     nameItinerary: "Rome Highlights",
@@ -22,7 +22,7 @@ let itineraries = [{
     photo: "https://example.com/rome.jpg",
     likes: 80,
     hashtags: "#Rome #Colosseum #VaticanCity #ItalianCuisine",
-    cityId: ["2"],
+    
 },
 {
     nameItinerary: "Tokyo Experience",
@@ -33,7 +33,7 @@ let itineraries = [{
     photo: "https://example.com/tokyo.jpg",
     likes: 120,
     hashtags: "#Tokyo #Shibuya #Sensoji #Sushi",
-    cityId: ["3"],
+   
 },  
 {
     nameItinerary: "NYC Tour",
@@ -44,7 +44,7 @@ let itineraries = [{
     photo: "https://example.com/nyc.jpg",
     likes: 150,
     hashtags: "#NYC #StatueOfLiberty #CentralPark #TimesSquare",
-    cityId: ["4"],
+    
 } 
 ];
 Itinerary.insertMany(itineraries);
