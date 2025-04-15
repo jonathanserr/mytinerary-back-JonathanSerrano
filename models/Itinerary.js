@@ -10,8 +10,8 @@ let schema = Schema({
     photo: { type: String, required: true },
     likes: { type: Number, required: true },
     hashtags: { type: String, required: true },
-    cityId: [{ type: Schema.Types.ObjectId, ref: "cities", required: true }],
-    //cityID is an array of ObjectId references to the cities collection
+    city: [{ type: Schema.Types.ObjectId, ref: "cities", required: true }],
+    //city is an array of ObjectId references to the cities collection
 }, {
     timestamps: true
 })
