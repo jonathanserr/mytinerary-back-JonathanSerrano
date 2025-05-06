@@ -7,10 +7,11 @@ let schema = Schema({
     description: { type: String, required: true },
     duration: { type: Number, required: true },
     price: { type: Number, required: true },
-    photo: { type: String, required: true },
+    itineraryPhoto: { type: String, required: true },
+    userPhoto: { type: String, required: true },
     likes: { type: Number, required: true },
-    hashtags: { type: String, required: true },
-    city: [{ type: Schema.Types.ObjectId, ref: "cities", required: true }],
+    hashtags: { type: [String], required: true },
+    cityId: { type: Schema.Types.ObjectId, ref: "cities", required: true },
     //city is an array of ObjectId references to the cities collection
 }, {
     timestamps: true
